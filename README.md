@@ -1,5 +1,11 @@
 # Platform Design System
 
+GitHub repository: `DesignSystemUI`
+
+Local workspace folder: `Platform.DesignSystem`
+
+Published package/import path: `@platform/design-system`
+
 Shared UI foundation for the Platform frontend apps.
 
 ## Scope
