@@ -2,7 +2,7 @@
 
 GitHub repository: `Platform.DesignSystemUI`
 
-Local workspace folder: `Platform.DesignSystem`
+Local workspace folder: `Platform.DesignSystemUI`
 
 Published package/import path: `@platform/design-system`
 
