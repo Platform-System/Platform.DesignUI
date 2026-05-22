@@ -20,3 +20,4 @@ jobs:
     uses: Platform-System/Platform.CI-CD/.github/workflows/build-lib.yml@main
     with:
       node_version: '20'
+      build_command: 'npm run test && npm run build'
