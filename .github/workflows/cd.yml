@@ -15,5 +15,7 @@ jobs:
   publish:
     if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push' }}
     uses: Platform-System/Platform.CI-CD/.github/workflows/deploy-package.yml@main
+    with:
+      scope: '@platform-system'
     secrets:
       NODE_AUTH_TOKEN: ${{ secrets.GHCR_TOKEN }}
