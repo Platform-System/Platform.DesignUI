@@ -11,9 +11,7 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "ignoreDeprecations": "5.0",
     "types": ["react", "react-dom", "node", "@testing-library/jest-dom"],
-    "baseUrl": ".",
     "paths": {
       "@platform/design-system": ["./src/index.ts"],
       "@platform/design-system/*": ["./src/*"]
