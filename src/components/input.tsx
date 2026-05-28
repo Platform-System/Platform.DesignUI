@@ -40,7 +40,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     }
 
     return (
-      <div className={cn('relative flex items-center', wrapperClassName)}>
+      <div className={cn('relative flex items-center w-full', wrapperClassName)}>
         {startAdornment ? (
           <div className="pointer-events-none absolute left-4 flex items-center justify-center text-muted-foreground">
             {startAdornment}
