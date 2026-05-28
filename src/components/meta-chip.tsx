@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { cn } from '../lib/cn'
 
-export interface MetaChipProps extends React.ComponentProps<'div'> {}
+export type MetaChipProps = React.ComponentProps<'div'>
 
 export function MetaChip({ className, ...props }: MetaChipProps) {
   return (
